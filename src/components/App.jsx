@@ -8,11 +8,11 @@ export const App = () => {
   const [query, setQuery] = useState('');
   const [images, setImages] = useState([]);
   const [page, setPage] = useState(1);
-  const [modalImage, setModalImage] = useState('');
+  // const [modalImage, setModalImage] = useState('');
   const [showBtn, setShowBtn] = useState(false);
   const [largeImageURL, setLargeImageURL] = useState('');
 
-  
+
 
   useEffect(() => {
     if (!query) {
@@ -31,7 +31,7 @@ export const App = () => {
     setQuery(query);
     setImages([]);
     setPage(1);
-    setModalImage('');
+    // setModalImage('');
     setShowBtn(false);
   };
 
