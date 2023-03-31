@@ -12,6 +12,8 @@ export const App = () => {
   const [showBtn, setShowBtn] = useState(false);
   const [largeImageURL, setLargeImageURL] = useState('');
 
+  
+
   useEffect(() => {
     if (!query) {
       return;
